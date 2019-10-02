@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:EjercicioBaseDeDatos"
         mc:Ignorable="d"
-        Title="AlumnosDB" Height="700" Width="900" Background="Bisque" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+        Title="AlumnosDB" Height="700" Width="697.82" Background="Bisque" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
     <Window.Resources>
         <Style TargetType="TextBlock">
             <Setter Property="FontSize" Value="20"/>
@@ -37,13 +37,21 @@
                     <ComboBoxItem Content="Mujer"/>
                     <ComboBoxItem Content="Es Complicado"/>
                 </ComboBox>
-            </WrapPanel>
-            <WrapPanel Margin="0"HorizontalAlignment="Center" Height="59">
+                </WrapPanel>
+                <WrapPanel>
+                    <TextBlock Text="Telefono : "/>
+                    <TextBox Name="txtTelefono" />
+                </WrapPanel>
+                <WrapPanel>
+                    <TextBlock Text="Dirección : "/>
+                    <TextBox Name="txtDireccion" TextWrapping="Wrap" AcceptsReturn="True" Height="75" />
+                </WrapPanel>
+            <WrapPanel Margin="0" HorizontalAlignment="Center" Height="59">
                 <Button Name="btnNuevo" Content="Nuevo" FontSize="25" Width="120" Margin="5" Click="BtnNuevo_Click"/>
                 <Button Name="btnEditar" Content="Editar" FontSize="25" Width="120" Margin="5" Click="BtnEditar_Click"/>
                 <Button Name="btnEliminar" Content="Eliminar" FontSize="25" Width="120" Margin="5" Click="BtnEliminar_Click"/>
                 <Button Name="btnCancelar" Content="Cancelar" FontSize="25" Width="120" Margin="5" Click="BtnCancelar_Click"/>
-                <Button Name="btnSalir" Content="Salir" FontSize="25" Width="120" Margin="5" Click="BtnCancelar_Click"/>
+                <Button Name="btnSalir" Content="Salir" FontSize="25" Width="120" Margin="5" Click="BtnCancelar_Click" Background="#FFA80000"/>
             </WrapPanel>
             <Label Content="No encontre Registros." Name="lbContenido" HorizontalAlignment="Center" FontSize="16" FontWeight="Bold" Foreground="#FFE10000"></Label>
             <WrapPanel Margin="20" HorizontalAlignment="Center">

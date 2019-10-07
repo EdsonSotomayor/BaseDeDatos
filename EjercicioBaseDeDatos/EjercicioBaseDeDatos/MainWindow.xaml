@@ -26,8 +26,8 @@
                 <TextBox x:Name="txtId"/>
             </WrapPanel>
             <WrapPanel>
-                <TextBlock Text="Nombre : "/>
-                <TextBox Name=" txtNombre"/>
+                <TextBlock Text="Nombre: "/>
+                <TextBox Name="txtNombre"/>
             </WrapPanel>
             <WrapPanel>
                 <TextBlock Text="Genero :"/>

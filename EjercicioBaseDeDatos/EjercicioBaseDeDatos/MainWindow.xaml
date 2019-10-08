@@ -35,7 +35,7 @@
                     <ComboBoxItem Content="Selecciona Genero" Selector.IsSelected="True"/>
                     <ComboBoxItem Content="Hombre"/>
                     <ComboBoxItem Content="Mujer"/>
-                    <ComboBoxItem Content="Es Complicado"/>
+                    <ComboBoxItem Content="Es complicado"/>
                 </ComboBox>
                 </WrapPanel>
                 <WrapPanel>
@@ -51,7 +51,7 @@
                 <Button Name="btnEditar" Content="Editar" FontSize="25" Width="120" Margin="5" Click="BtnEditar_Click"/>
                 <Button Name="btnEliminar" Content="Eliminar" FontSize="25" Width="120" Margin="5" Click="BtnEliminar_Click"/>
                 <Button Name="btnCancelar" Content="Cancelar" FontSize="25" Width="120" Margin="5" Click="BtnCancelar_Click"/>
-                <Button Name="btnSalir" Content="Salir" FontSize="25" Width="120" Margin="5" Click="BtnCancelar_Click" Background="#FFA80000"/>
+                <Button x:Name="BtnSalir" Content="Salir" FontSize="25" Width="120" Margin="5" Click="BtnSalir_Click" Background="#FFA80000"/>
             </WrapPanel>
             <Label Content="No encontre Registros." Name="lbContenido" HorizontalAlignment="Center" FontSize="16" FontWeight="Bold" Foreground="#FFE10000"></Label>
             <WrapPanel Margin="20" HorizontalAlignment="Center">
